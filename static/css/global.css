@@ -1,0 +1,65 @@
+
+body {
+    margin: 20px;
+    line-height: normal;
+    background-color: #FFFDF7;
+    }
+    
+.nav-header {
+    width: 1210px;
+    position: relative;
+    font-size: 64px;
+    letter-spacing: -0.02em;
+    font-family: 'EB Garamond';
+    color: #281A13;
+    text-align: left;
+    display: inline-block;
+    height: 233px;
+}
+    
+.nav-header a{
+    text-decoration: underline dotted 4px;
+    color: #281A13;
+    cursor: pointer;
+}
+
+
+.nav-header a:hover#forbidden{
+    cursor: not-allowed;
+    background: linear-gradient(to right, white 50%, transparent 0%), 
+    linear-gradient(transparent 35%, rgba(128, 128, 128, 0.364) 35%);
+    animation: highlight 1000ms ease forwards;
+    background-size: 200%;
+}
+
+.nav-header a:hover{
+    color: #281A13;
+    cursor: pointer;
+    background: linear-gradient(to right, white 50%, transparent 0%), 
+    linear-gradient(transparent 35%, #C29D3B99 35%);
+    animation: highlight 1000ms ease forwards;
+    background-size: 200%;
+}
+
+.nav-header a#active{
+    text-decoration: none;
+    color: #281A13;
+    cursor: pointer;
+    background: linear-gradient(to right, white 50%, transparent 0%), 
+    linear-gradient(transparent 35%, #C29D3B99 35%);
+    animation:none;
+    background-size: 200%;
+    background-position: 100%;
+}
+
+
+@keyframes highlight {
+    from {
+      background-position: 0;
+    }
+
+    to {
+      background-position: 100%;
+    }
+}
+
