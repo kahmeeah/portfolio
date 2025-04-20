@@ -4,6 +4,31 @@ body {
     line-height: normal;
     background-color: #FFFDF7;
     }
+
+a{
+    text-decoration: underline;
+    color: #281A13;
+
+}
+
+a:hover{
+    text-decoration: underline dotted;
+}
+
+@keyframes fadeIn {
+    0% {
+      transform: translateY(35%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+.fadeIn-animation {
+    animation: fadeIn 1.5s ease;
+  }
     
 .nav-header {
     width: 1210px;
@@ -26,7 +51,7 @@ body {
 
 .nav-header a:hover#forbidden{
     cursor: not-allowed;
-    background: linear-gradient(to right, white 50%, transparent 0%), 
+    background: linear-gradient(to right, #FFFDF7 50%, transparent 0%), 
     linear-gradient(transparent 35%, rgba(128, 128, 128, 0.364) 35%);
     animation: highlight 1000ms ease forwards;
     background-size: 200%;
@@ -35,7 +60,7 @@ body {
 .nav-header a:hover{
     color: #281A13;
     cursor: pointer;
-    background: linear-gradient(to right, white 50%, transparent 0%), 
+    background: linear-gradient(to right, #FFFDF7 50%, transparent 0%), 
     linear-gradient(transparent 35%, #C29D3B99 35%);
     animation: highlight 1000ms ease forwards;
     background-size: 200%;
@@ -63,3 +88,26 @@ body {
     }
 }
 
+.about-grid{
+    display: grid;
+    grid-template-areas: "side body pic";
+    grid-template-columns: 225px 405px 1fr;
+    column-gap: 50px;
+}
+
+.about-body{
+    grid-area: body;
+}
+
+.about-side{
+    grid-area: side;
+    /* display: flex; */
+}
+
+.about-side a{
+    display: block;
+}
+
+.about-pic{
+    grid-area: pic;
+}
