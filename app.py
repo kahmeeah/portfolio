@@ -9,6 +9,21 @@ def index():
     """renders index.html"""
     return render_template("index.html")
 
+@app.route("/about")
+def about():
+    """renders about.html"""
+    return render_template("about.html", active_page='about')
+
+@app.route("/design")
+def design():
+    """renders design.html"""
+    return render_template("design.html", active_page='design')
+
+@app.route("/art")
+def art():
+    """renders art.html"""
+    return render_template("art.html", active_page='art')
+
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=8080, debug=True, use_reloader=True)
