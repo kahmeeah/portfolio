@@ -24,6 +24,11 @@ def art():
     """renders art.html"""
     return render_template("art.html", active_page='art')
 
+@app.route("/code")
+def art():
+    """renders code.html"""
+    return render_template("code.html", active_page='code')
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True, use_reloader=True)
