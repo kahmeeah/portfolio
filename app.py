@@ -25,7 +25,7 @@ def art():
     return render_template("art.html", active_page='art')
 
 @app.route("/code")
-def art():
+def code():
     """renders code.html"""
     return render_template("code.html", active_page='code')
 
