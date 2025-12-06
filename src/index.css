@@ -162,6 +162,11 @@ a:hover{
 
 /* WORK CLOSEUP VIEW STYLES */
 
+.cursor-zoom-in {
+  cursor: zoom-in;
+  z-index: 99999999999;
+}
+
 .view-container {
     display: none;
     padding: 20px 32px;

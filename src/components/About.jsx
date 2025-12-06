@@ -1,21 +1,20 @@
-{% extends "index.html" %}
-{% block title %}Kahmeeah Obey · About{% endblock %}
-{% block content %}
+const About = () => {
+  return (
+    <div className="about-grid fadeIn-animation">
+        <title>Kahmeeah Obey · About</title>
 
-    <div class="about-grid fadeIn-animation">
-
-        
-        <div class="about-side">
+        <div className="about-side">
             <a href="mailto:kahmeeah@nyu.edu">email me</a>
-            <br>
+            <br/>
             <a href="">view my CV</a>
-            <br>
+            <br/>
             <a href="https://github.com/kahmeeah" target="_blank">github</a>
             
         </div>
         
-        <div class="about-body">
-            <p style="margin-top: 0;">my name is kahmeeah obey. i like making things with computers and with my hands. i am currently
+        <div className="about-body">
+            <p style= {{ marginTop: 0 }}>
+                my name is kahmeeah obey. i like making things with computers and with my hands. i am currently
                 studying computer science at new york university,
                 with a minor in digital arts & design.</p>
                 
@@ -23,10 +22,13 @@
                     of clovers, and taking care of my son (pictured right).</p>
                 </div>
                 
-        <div class="about-pic">
-            <img src="{{url_for('static', filename='images/montybear.svg')}}" alt="" style="max-width: 85%;">
-            
+        <div className="about-pic">
+            <img src="/images/montybear.svg" alt="" style= {{ maxWidth: '85%' }} />
+        
         </div>
     </div>
+    
+  );
+};
 
-{% endblock %}
+export default About;
