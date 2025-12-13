@@ -4,6 +4,7 @@ export const projects = [
   {
     id: "THISISNOTABRICK",
     title: "This Is Not A Brick",
+    type: "Poster Design",
     cover: "/images/works/THISISNOTABRICK/cover.png",
     images: [
       "/images/works/THISISNOTABRICK/cover.png",
@@ -20,6 +21,7 @@ export const projects = [
   {
     id: "sapphobook",
     title: "Sappho Book Cover",
+    type: "Poster Design",
     cover: "/images/works/sapphobook/cover.png",
     images: [
       "/images/works/sapphobook/cover.png",
@@ -36,6 +38,7 @@ export const projects = [
   {
     id: "NYCPoetryFestival",
     title: "NYC Poetry Festival",
+    type: "Poster Design",
     cover: "/images/works/NYCPoetryFestival/cover.png",
     images: [
         "/images/works/NYCPoetryFestival/cover.png"
@@ -51,6 +54,7 @@ export const projects = [
   {
     id: "RemediumProDamnatis",
     title: "Remedium Pro Damnatis",
+    type: "Poster Design",
     cover: "/images/works/RemediumProDamnatis/cover.png",
     images: [
         "/images/works/RemediumProDamnatis/cover.png",
@@ -67,6 +71,7 @@ export const projects = [
   {
     id: "flashcards",
     title: "Typography Flashcards",
+    type: "Poster Design",
     cover: "/images/works/flashcards/cover.png",
     images: [
         "/images/works/flashcards/cover.png",
@@ -86,6 +91,7 @@ export const projects = [
   {
     id: "VERVE",
     title: "The Verve Magazine",
+    type: "Poster Design",
     cover: "/images/works/VERVE/cover.png",
     images: [
         "/images/works/VERVE/cover.png"

@@ -7,6 +7,7 @@ import About from './components/About'
 import Design from './components/Design'
 import Code from './components/Code'
 import Home from './components/Home'
+import Block from './components/Block';
 
 function App() {
 
@@ -24,10 +25,11 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/design" element={<Design />} />
             <Route path="/code" element={<Code />} />
+            <Route path="/block" element={<Block />} />
           </Routes>
         </main>
       </div>
-      
+       
     </BrowserRouter>
   )
 }

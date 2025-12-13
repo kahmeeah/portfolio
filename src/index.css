@@ -4,13 +4,17 @@
     --color-accent: #7B5367;
     --color-yellow: #C29D3B;
     --color-yellowLight: #D9BC61;
-    --color-antique: #FFFAE9;
+    --color-antique: #FFFDF7;
     --color-brownblack: #281A13;
+}
+html{
+    font-size: clamp(12px, 0.8vw + 8px, 20px);
 }
 body {
     margin: 20px;
     line-height: normal;
     background-color: #FFFDF7;
+    font-family: 'EB Garamond';
     }
 
 a{
@@ -39,13 +43,17 @@ a:hover{
   }
     
 .nav-div{
+    position: sticky;
+    top: 0;
+    z-index: 100000;
     display: flex;
+    background-color: var(--color-antique);
 }
 .nav-header {
     width: 1210px;
     position: relative;
-    /* font-size: 5vw; */
-    font-size: clamp(28px, 5vw, 64px);
+    font-size: 3.04rem;
+    /* font-size: clamp(28px, 5vw, 64px); */
     letter-spacing: -0.02em;
     font-family: 'EB Garamond';
     color: #281A13;
@@ -159,6 +167,85 @@ a:hover{
     transform: scale(1.05);
 }
   
+
+
+/* BLOCK STYLES */
+
+.design-container{
+    padding-top: 3rem; 
+    /* 1rem less to account for blocks */
+    position: relative;
+
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 12.5rem;
+    padding: 1rem 0;
+}
+
+.block-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 15rem;
+
+}
+
+.block-img{
+    width: clamp(15rem, 30vw, 18rem);
+    height: auto;
+    align-self: center;
+    filter: grayscale(70%) ;
+    
+}
+
+.ink-overlay {
+  /* 2. Position this color block directly on top of the image */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  
+  
+  /* 3. The Ink Color (Dark Brown from your reference) */
+  background-color: #281A13; 
+  
+  /* 4. The Magic Blend Mode */
+  /* Turns Black pixels -> Brown. Keeps White pixels -> White. */
+  mix-blend-mode:screen; 
+  pointer-events: none; /* Lets you click the image underneath */
+}
+
+.block-text h1 {
+    font-weight:normal;
+    font-size: 1.9rem;
+    margin: 0;
+
+}
+
+.block-text h2 {
+    font-weight:normal;
+    font-size: 1.9rem;
+    margin: 0;
+    color: #00000072;
+
+}
+
+
+.block-text p {
+    font-size: 1.25rem;
+    margin-top: 3rem;
+
+}
+
+
+
+
 
 /* WORK CLOSEUP VIEW STYLES */
 
@@ -305,6 +392,9 @@ a:hover{
 }
 
 @media (max-width: 900px) {
+    .block{
+        flex-direction: column;
+    }
     .gallery {
         column-count: 3;
     }
