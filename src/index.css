@@ -162,6 +162,12 @@ a:hover{
     column-count: 5; /* desktop default */
     column-gap: 15px;
     padding: 20px 0;
+
+    /* for safari */
+    transform: translateZ(0);
+    /* dont render during transitions */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .item {
