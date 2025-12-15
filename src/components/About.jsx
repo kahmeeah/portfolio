@@ -6,7 +6,7 @@ const About = () => {
         <div className="about-side">
             <a href="mailto:kahmeeah@nyu.edu">email me</a>
             <br/>
-            <a href="">view my CV</a>
+            <a href="/images/Kahmeeah_Obey_Resume.pdf" target="_blank" rel="noopener noreferrer">view resume</a>
             <br/>
             <a href="https://github.com/kahmeeah" target="_blank">github</a>
             
@@ -14,9 +14,10 @@ const About = () => {
         
         <div className="about-body">
             <p style= {{ marginTop: 0 }}>
-                my name is kahmeeah obey. i like making things with computers and with my hands. i am currently
-                studying computer science at new york university,
-                with a minor in digital arts & design.</p>
+                my name is kahmeeah obey. i like making things with computers and with my hands. i graduated from
+                nyu with a b.a. in computer science,
+                and a minor in digital arts & design.
+                 </p>
                 
                 <p>when i'm not creating - i'm collecting tea tags, digging through fields 
                     of clovers, and taking care of my son (pictured right).</p>
