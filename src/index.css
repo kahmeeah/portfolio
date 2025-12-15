@@ -175,7 +175,7 @@ a:hover{
     height: auto;
     display: block;
     padding-bottom: 15px;
-    border-radius: 16px;
+    border-radius: 6px;
     cursor: pointer;
     transition: transform 0.2s ease;
      transform: translateZ(0);

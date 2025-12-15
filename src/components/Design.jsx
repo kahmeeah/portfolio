@@ -120,7 +120,7 @@ const Design = () => {
         <div className="gallery">
             {projects.map((project) => (
                 <picture
-                className="item cursor-pointer hover:opacity-90 transition-opacity"
+         
                 >
                 <source 
                     srcset={project.cover.replace('/works/', '/works-webp/').replace(/\.(png|jpe?g)$/i, '.webp')} 
