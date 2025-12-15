@@ -50,6 +50,7 @@ a:hover{
   }
   
 .fadeIn-animation {
+     transform: translateZ(0);
     animation: fadeIn 1.5s ease;
   }
     
@@ -171,6 +172,9 @@ a:hover{
     border-radius: 16px;
     cursor: pointer;
     transition: transform 0.2s ease;
+     transform: translateZ(0);
+     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     
 }
 
