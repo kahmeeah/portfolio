@@ -33,6 +33,7 @@ const Design = () => {
 
   // selected proj closeup view
   if (selectedProject) {
+      const currentSrc = selectedProject.images[currentImageIndex];
     return (
       <div id="project-view" className="view-container active fadeIn-animation">
         <title>Kahmeeah Obey · Design</title>
@@ -44,27 +45,49 @@ const Design = () => {
           <div className="project-body">
             <div className="project-left">
               <div className="image-container">
-                <img 
-                  id="project-main-img" 
-                  src={selectedProject.images[currentImageIndex]} 
-                  alt={selectedProject.title}
-                  className="cursor-zoom-in"
-                  onClick={() => window.open(selectedProject.images[currentImageIndex], '_blank')}
+                <picture id="project-main-img" 
+                className="cursor-zoom-in"
+                    onClick={() => window.open(currentSrc, '_blank')} 
+                    style={{ width: '100%', height: '60vh', objectFit: 'contain' }}>
+                <source 
+                    srcset={currentSrc.replace('/works/', '/works-webp/').replace(/\.(png|jpe?g)$/i, '.webp')} 
+                    type="image/webp"
                 />
+
+                {/* fallback img */}
+                <img 
+              id="project-main-img" 
+                className="cursor-zoom-in"
+                    onClick={() => window.open(currentSrc, '_blank')}
+                    src={currentSrc}
+                    alt={selectedProject.title}
+                    style={{ width: '100%', height: '60vh', objectFit: 'contain' }}
+
+                    
+                />
+            </picture>
               </div>
               
               <div id="project-thumbs" className="thumb-strip">
                 {selectedProject.images.map((img, index) => (
-                  <img 
-                    key={index}
-                    src={img} 
-                    className={index === currentImageIndex ? 'active' : ''}
-                    onClick={(e) => {
-                        e.stopPropagation(); // stop the navzone click
-                        setCurrentImageIndex(index);
-                    }}
-                    alt="thumbnail"
+                  <picture className={index === currentImageIndex ? 'active' : ''}>
+                  <source 
+                      srcset={img.replace('/works/', '/works-webp/').replace(/\.(png|jpe?g)$/i, '.webp')} 
+                      type="image/webp"
                   />
+
+                  {/* fallback img */}
+                  <img 
+                      key={index}
+                      src={img}
+                      className={index === currentImageIndex ? 'active' : ''}
+                      onClick={(e) => {
+                          e.stopPropagation(); // stop the navzone click
+                          setCurrentImageIndex(index);
+                      }}
+                      alt={`Project thumbnail ${index + 1}`}
+                  />
+              </picture>
                 ))}
               </div>
             </div>
@@ -96,6 +119,15 @@ const Design = () => {
         
         <div className="gallery">
             {projects.map((project) => (
+                <picture
+                className="item cursor-pointer hover:opacity-90 transition-opacity"
+                >
+                <source 
+                    srcset={project.cover.replace('/works/', '/works-webp/').replace(/\.(png|jpe?g)$/i, '.webp')} 
+                    type="image/webp"
+                />
+                
+                {/* 2. fallback img */}
                 <img 
                     key={project.id}
                     src={project.cover} 
@@ -108,6 +140,7 @@ const Design = () => {
                         window.scrollTo(0,0);
                     }}
                 />
+            </picture>
             ))}
         </div>
     </div>
