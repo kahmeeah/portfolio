@@ -7,6 +7,19 @@
     --color-antique: #FFFAE9;
     --color-brownblack: #281A13;
 }
+
+@font-face {
+  font-family: 'EB Garamond'; 
+
+  src: url('/fonts/EBGaramond-Regular.woff2') format('woff2'), 
+       url('/fonts/EBGaramond-Regular.woff') format('woff'); 
+       
+
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; 
+}
+
 body {
     margin: 20px;
     line-height: normal;
@@ -157,6 +170,13 @@ a:hover{
 
 .item:hover {
     transform: scale(1.05);
+}
+
+@media (hover: none) and (pointer: coarse) {
+    /* target devices that use touch & cannot hover */
+    .item:hover {
+        transform: scale(1);
+    }
 }
   
 
