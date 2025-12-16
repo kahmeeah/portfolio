@@ -16,11 +16,18 @@ body {
     background-color: #FFFDF7;
     font-family: 'EB Garamond';
     }
-
+p{
+    font-size: 1.5rem;
+}
 a{
+    font-size: 1.5rem;
     text-decoration: underline;
     color: var(--color-brownblack);
 
+}
+
+span{
+    font-size: 1.5rem;
 }
 
 a:hover{
@@ -63,6 +70,7 @@ a:hover{
 }
     
 .nav-header a{
+    font-size: 3.04rem;
     text-decoration: underline dotted 4px;
     color: #281A13;
     cursor: pointer;
