@@ -39,8 +39,8 @@ const Design = () => {
         <title>Kahmeeah Obey · Design</title>
         <div className="project-content-wrapper">
           
-          <div id="nav-left" className="nav-zone" onClick={() => navigateProject(-1)}></div>
-          <div id="nav-right" className="nav-zone" onClick={() => navigateProject(1)}></div>
+          {/* <div id="nav-left" className="nav-zone" onClick={() => navigateProject(-1)}></div>
+          <div id="nav-right" className="nav-zone" onClick={() => navigateProject(1)}></div> */}
 
           <div className="project-body">
             <div className="project-left">

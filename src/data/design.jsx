@@ -11,9 +11,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -27,9 +24,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -42,9 +36,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -58,9 +49,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -77,9 +65,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -92,9 +77,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -108,15 +90,12 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
     {
     id: "GlassBook",
-    title: "Typography Flashcards",
+    title: "5 A.R. (Anno Renascentia)",
     cover: "/images/works/GlassBook/cover.jpg",
     images: [
         "/images/works/GlassBook/cover.jpg",
@@ -126,9 +105,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -146,9 +122,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
