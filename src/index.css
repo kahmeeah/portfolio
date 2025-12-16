@@ -4,7 +4,7 @@
     --color-accent: #7B5367;
     --color-yellow: #C29D3B;
     --color-yellowLight: #D9BC61;
-    --color-antique: #FFFAE9;
+    --color-antique: #FFFDF7;
     --color-brownblack: #281A13;
 }
 
@@ -18,6 +18,29 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap; 
+}
+html{
+    font-size: clamp(12px, 0.8vw + 8px, 20px);
+}
+p{
+    font-size: clamp(16px, 2vw, 20px);
+}
+a{
+   font-size: clamp(16px, 2vw, 20px);
+    text-decoration: underline;
+    color: var(--color-brownblack);
+
+}
+
+span{
+   font-size: clamp(16px, 2vw, 20px);
+}
+
+span[class]{
+    font-size: inherit;
+}
+a[class]{
+    font-size: inherit;
 }
 
 body {
@@ -53,15 +76,20 @@ a:hover{
      transform: translateZ(0);
     animation: fadeIn 1.5s ease;
   }
-    
+
 .nav-div{
+    position: sticky;
+    top: 0;
+    z-index: 100000;
     display: flex;
+    background-color: var(--color-antique);
 }
+
 .nav-header {
     width: 1210px;
     position: relative;
-    /* font-size: 5vw; */
-    font-size: clamp(28px, 5vw, 64px);
+    font-size: 3.04rem;
+    /* font-size: clamp(28px, 5vw, 64px); */
     letter-spacing: -0.02em;
     font-family: 'EB Garamond';
     color: #281A13;
@@ -71,6 +99,7 @@ a:hover{
 }
     
 .nav-header a{
+    font-size: 3.04rem;
     text-decoration: underline dotted 4px;
     text-decoration-line: underline;
     text-decoration-style: dotted;
@@ -318,7 +347,7 @@ a:hover{
 
 .summary-text {
     font-family: serif;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     line-height: 1.7;
     white-space: pre-line;
     text-align: left;
