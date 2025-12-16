@@ -15,9 +15,12 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
+      <a href="https://github.com/kahmeeah/BiteBuzz" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <br></br>
+      A collaborative project developed by a team of four developers.
+      <br></br>
+      Roles: Front-End Developer, Creative Director 
+      <br></br>
       </>
     )
   },
@@ -32,9 +35,8 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
+      <a href="https://github.com/kahmeeah/Cardify" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <br></br>
       </>
     )
   },
@@ -52,9 +54,12 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
+      <a href="https://github.com/kahmeeah/WWWD" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <br></br>
+      A collaborative project developed by a team of five developers.
+      <br></br>
+      Roles: Lead Full-Stack Developer, Creative/Concept Director 
+      <br></br>
       </>
     )
   },
@@ -67,9 +72,10 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
+      <a href="https://kahmeeah.github.io/html-css-playground/collage/index.html" target="_blank" rel="noopener noreferrer">Live Site</a>
+      <br></br>
+      <a href="https://github.com/kahmeeah/html-css-playground" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <br></br>
       </>
     )
   },

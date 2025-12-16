@@ -322,6 +322,8 @@ a:hover{
     line-height: 1.7;
     white-space: pre-line;
     text-align: left;
+    position: relative;
+    z-index: 9999999999;
 }
 
 
