@@ -39,8 +39,8 @@ const Design = () => {
         <title>Kahmeeah Obey · Design</title>
         <div className="project-content-wrapper">
           
-          <div id="nav-left" className="nav-zone" onClick={() => navigateProject(-1)}></div>
-          <div id="nav-right" className="nav-zone" onClick={() => navigateProject(1)}></div>
+          {/* <div id="nav-left" className="nav-zone" onClick={() => navigateProject(-1)}></div>
+          <div id="nav-right" className="nav-zone" onClick={() => navigateProject(1)}></div> */}
 
           <div className="project-body">
             <div className="project-left">
@@ -120,7 +120,7 @@ const Design = () => {
         <div className="gallery">
             {projects.map((project) => (
                 <picture
-                className="item cursor-pointer hover:opacity-90 transition-opacity"
+         
                 >
                 <source 
                     srcset={project.cover.replace('/works/', '/works-webp/').replace(/\.(png|jpe?g)$/i, '.webp')} 

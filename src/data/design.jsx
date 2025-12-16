@@ -11,9 +11,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -27,9 +24,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -42,9 +36,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -58,9 +49,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -77,9 +65,6 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
   },
@@ -92,10 +77,52 @@ export const projects = [
     ],
     summary: (
       <>
-      Summary first line would go here
-        <br/> <br/>
-      Second line of summary example
       </>
     )
-  }
+  },
+    {
+    id: "ConfessionalPhone",
+    title: "1-800-DELIVR-ME",
+    cover: "/images/works/ConfessionalPhone/cover.JPG",
+    images: [
+        "/images/works/ConfessionalPhone/cover.JPG",
+        "/images/works/ConfessionalPhone/detail1.jpg"
+    ],
+    summary: (
+      <>
+      </>
+    )
+  },
+    {
+    id: "GlassBook",
+    title: "5 A.R. (Anno Renascentia)",
+    cover: "/images/works/GlassBook/cover.jpg",
+    images: [
+        "/images/works/GlassBook/cover.jpg",
+        "/images/works/GlassBook/detail1.jpg",
+        "/images/works/GlassBook/detail2.jpg",
+        // "/images/works/GlassBook/demo.mp4",
+    ],
+    summary: (
+      <>
+      </>
+    )
+  },
+    {
+    id: "WoodZine",
+    title: "Typography Flashcards",
+    cover: "/images/works/WoodZine/cover.jpg",
+    images: [
+        "/images/works/WoodZine/cover.jpg",
+        "/images/works/WoodZine/detail1.jpg",
+        "/images/works/WoodZine/detail2.jpg",
+        "/images/works/WoodZine/detail3.jpg",
+        "/images/works/WoodZine/detail4.jpg",
+        "/images/works/WoodZine/detail5.jpg",
+    ],
+    summary: (
+      <>
+      </>
+    )
+  },
 ];
