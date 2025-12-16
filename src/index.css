@@ -159,7 +159,7 @@ a:hover{
 .gallery{
     width: 100%;
     max-width: 1200px;
-    column-count: 5; /* desktop default */
+    column-count: 3; /* desktop default */
     column-gap: 15px;
     padding: 20px 0;
 
@@ -170,11 +170,15 @@ a:hover{
     backface-visibility: hidden;
 }
 
+.gallery#code{
+    column-count: 2;
+}
+
 .item {
     width: 100%;
     height: auto;
     display: block;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     border-radius: 6px;
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -338,12 +342,18 @@ a:hover{
     .gallery {
         column-count: 4;
     }
+    .gallery#code{
+    column-count: 2;
+}
 }
 
 @media (max-width: 900px) {
     .gallery {
         column-count: 3;
     }
+    .gallery#code{
+    column-count: 1;
+}
     .about-grid {
         flex-direction: column;
         row-gap: 25px;
@@ -373,10 +383,16 @@ a:hover{
     .gallery {
         column-count: 2;
     }
+    .gallery#code{
+    column-count: 1;
+}
 }
 
 @media (max-width: 400px) {
     .gallery {
         column-count: 1;
     }
+    .gallery#code{
+    column-count: 1;
+}
 }
