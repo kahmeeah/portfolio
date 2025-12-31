@@ -11,6 +11,13 @@ export const projects = [
     ],
     summary: (
       <>
+      <i>This Is Not A Brick</i>
+      <br />
+      Fall 2024
+      <br /> <br />
+      Discipline: Poster Design, Activism
+      <br /> <br />
+      A commemorative poster for the 55th anniversary of Stonewall. It uses gritty halftone textures and heavy, aggressive type to connect the history of the 1969 riots with the urgent, modern fight for trans rights.
       </>
     )
   },
@@ -24,6 +31,13 @@ export const projects = [
     ],
     summary: (
       <>
+      <i>The Lovers of Sappho</i>
+      <br />
+      Fall 2025
+       <br /> <br />
+      Discipline: Book Cover Design
+      <br /> <br />
+      A contemporary cover design for a poetry anthology book. The composition relies on delicate floral masking and distinct negative space to evoke a sense of longing and fragmentation, modernizing the classical poems for a new generation of readers.
       </>
     )
   },
@@ -36,6 +50,13 @@ export const projects = [
     ],
     summary: (
       <>
+      <i>NYC Poetry Festival</i>
+      <br />
+      Summer 2024
+      <br /> <br />
+      Discipline: Poster Design, Typography
+      <br /> <br />
+      A promotional concept poster for the NYC Poetry Festival. The design breaks the grid, using distressed and scattered typography to mimic the raw, off-the-cuff rhythm of a spoken word performance.
       </>
     )
   },
@@ -78,6 +99,13 @@ export const projects = [
     ],
     summary: (
       <>
+      <i>Anatomy of Type Flashcards</i>
+      <br />
+      Summer 2024
+      <br /> <br />
+      Discipline: Packaging, Information Design
+      <br /> <br />
+      An educational flashcard deck designed to gamify typographic literacy. Using a vibrant, Bauhaus-inspired color palette, each card isolates specific anatomical features, transforming technical terminology into a tangible, visual lexicon.
       </>
     )
   },
@@ -90,6 +118,14 @@ export const projects = [
     ],
     summary: (
       <>
+      <i>The VERVE Magazine</i>
+      <br />
+      Fall 2024
+      <br /> <br />
+      Discipline: Editorial Design, Layout, Branding
+      <br /> <br />
+      A magazine layout that clashes a strict, organized grid against distorted punk aesthetics. The design balances clear readability with the chaotic, "cut-and-paste" energy of the subculture it covers.
+
       </>
     )
   },
@@ -169,7 +205,7 @@ export const projects = [
     ],
     summary: (
       <>
-      <i>Untitled</i>
+      <i>Untitled (Love Letter to Central Park)</i>
        <br />
       Spring 2025
       <br /> <br />
