@@ -15,11 +15,18 @@ export const projects = [
     ],
     summary: (
       <>
+      <i>BiteBuzz</i>
+      <br />
+      Spring 2025
+      <br />
       <a href="https://github.com/kahmeeah/BiteBuzz" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <br></br>
+      <br /> <br />
+      A voice-powered web app that lets diners speak their reviews instead of typing them. 
+      The system uses machine learning to transcribe the audio and analyze sentiment to help restaurant owners improve.
+      <br /><br />
       A collaborative project developed by a team of four developers.
-      <br></br>
-      Roles: Front-End Developer, Creative Director 
+      <br /> <br />
+      Roles: Front-End Developer, Product Designer
       <br></br>
       </>
     )
@@ -35,8 +42,13 @@ export const projects = [
     ],
     summary: (
       <>
+      <i>Cardify</i>
+      <br />
+      Fall 2023
+      <br />
       <a href="https://github.com/kahmeeah/Cardify" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <br></br>
+      <br /> <br />
+      Cardify is a web application that utilizes the Spotify API to analyze users' listening habits and presents the data in the form of an ID Card.
       </>
     )
   },
@@ -54,11 +66,20 @@ export const projects = [
     ],
     summary: (
       <>
+      <i>While We Were Dreaming</i>
+      <br />
+      Fall 2024
+      <br />
       <a href="https://github.com/kahmeeah/WWWD" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <br></br>
+      <br /> <br />
+      A location-based web platform designed to bridge the emotional
+      gap caused by NYU's open-city campus. Students pin anonymous
+      memories to physical coordinates, creating a decentralized archive
+      of the student community
+      <br /> <br />
       A collaborative project developed by a team of five developers.
-      <br></br>
-      Roles: Lead Full-Stack Developer, Creative/Concept Director 
+      <br /> <br />
+      Roles: Lead Full-Stack Developer, Creative/Concept Director, Product Designer
       <br></br>
       </>
     )
