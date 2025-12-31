@@ -63,22 +63,22 @@ export const projects = [
       </>
     )
   },
-      {
-    id: "COLLAGE",
-    title: "Experimental Collage",
-    cover: "/images/code/COLLAGE/cover.png",
-    images: [
-      "/images/code/COLLAGE/cover.png"      
-    ],
-    summary: (
-      <>
-      <a href="https://kahmeeah.github.io/html-css-playground/collage/index.html" target="_blank" rel="noopener noreferrer">Live Site</a>
-      <br></br>
-      <a href="https://github.com/kahmeeah/html-css-playground" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <br></br>
-      </>
-    )
-  },
+  //     {
+  //   id: "COLLAGE",
+  //   title: "Experimental Collage",
+  //   cover: "/images/code/COLLAGE/cover.png",
+  //   images: [
+  //     "/images/code/COLLAGE/cover.png"      
+  //   ],
+  //   summary: (
+  //     <>
+  //     <a href="https://kahmeeah.github.io/html-css-playground/collage/index.html" target="_blank" rel="noopener noreferrer">Live Site</a>
+  //     <br></br>
+  //     <a href="https://github.com/kahmeeah/html-css-playground" target="_blank" rel="noopener noreferrer">GitHub</a>
+  //     <br></br>
+  //     </>
+  //   )
+  // },
     
 
 
